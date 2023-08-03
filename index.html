@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Creating a Form in HTML, CSS, and JS</title>
+</head>
+<body>
+  <form id="userForm" class="form-container">
+    <div class="head"><h1>Web Form using html, css & js</h1></div>
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="Age">Age(years):</label>
+      <input type="text" id="lastName" name="Age">
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+    </div>
+    <div class="form-group">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="40" ></textarea>
+    </div>
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+  
+  <div id="successMessage" class="success-message">
+    <h2>Form Submission Successful</h2>
+    <p>Your form has been submitted successfully.</p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
