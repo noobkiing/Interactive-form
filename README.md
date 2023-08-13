@@ -1,11 +1,16 @@
 # Interactive-form
-Designed and developed a user-friendly and interactive web form using HTML, CSS, and JavaScript. 
-The form collects and validate user input data for a specific purpose. On clicking submit button the HTML page will redirect to another page which shows "Form Submission Successful".
+
+This repository contains a user-friendly and interactive web form developed using HTML, CSS, and JavaScript. The form collects and validates user input data for a specific purpose and redirects to a success page upon submission.
 ## Getting Started
-a) 1. Clone this repository to your local machine.
-   2. Open `index.html` in your browser to see the example form.
-             OR
-b) Hop on to https://noobkiing.github.io/Interactive-form/
+
+### Option 1: Local Setup
+
+1. Clone this repository to your local machine.
+2. Open `index.html` in your browser to access the example form.
+
+### Option 2: Github Pages
+
+You can also try out the interactive form directly at https://noobkiing.github.io/Interactive-form/
 ## Form Fields
 
 The form includes the following fields:
